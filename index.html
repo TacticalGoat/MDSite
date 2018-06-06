@@ -11,64 +11,47 @@
 
 <body>
     <!--Begin Navigation Section-->
-    <nav class="default-primary-color" role="navigation">
-        <div class="nav-wrapper container">
-            <a id="logo-container" href="#" class="brand-logo">QuantMan</a>
-            <ul class="right hide-on-med-and-down primary-text-color">
-                <li>
-                    <a href="#">Home</a>
-                </li>
-                <li>
-                    <a href="#">Services</a>
-                </li>
-                <li>
-                    <a href="#">Testimonials</a>
-                </li>
-                <li>
-                    <a href="#">Blog</a>
-                </li>
-                <li>
-                    <a href="#">About</a>
-                </li>
-            </ul>
-            <ul id="nav-mobile" class="sidenav">
-                <li>
-                    <a href="#">Home</a>
-                </li>
-                <li>
-                    <a href="#">Services</a>
-                </li>
-                <li>
-                    <a href="#">Testimonials</a>
-                </li>
-                <li>
-                    <a href="#">Blog</a>
-                </li>
-                <li>
-                    <a href="#">About</a>
-                </li>
-            </ul>
-            <a href="#" data-target="nav-mobile" class="sidenav-trigger">
-                <i class="material-icons">menu</i>
-            </a>
-        </div>
-    </nav>
+    <div class="navbar-fixed">
+        <nav class="transparentBG" role="navigation">
+            <div class="nav-wrapper">
+                <ul id="nav-mobile" class="sidenav">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Services</a>
+                    </li>
+                    <li>
+                        <a href="#">Testimonials</a>
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                </ul>
+                <a href="#" data-target="nav-mobile" class="sidenav-trigger show-on-large">
+                    <i class="material-icons">menu</i>
+                </a>
+            </div>
+        </nav>
+    </div>
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
     <script src="js/init.js"></script>
     <!--End Nav Section-->
     <!--Begin Hero Image-->
     <div id="index-banner" class="parallax-container">
-        <div class="section no-pad-bot">
-            <div class="container">
-                <br>
-                <br>
-                <h1 class="header center text-primary-color">Lorem Ipsum sit dollar.</h1>
-                <div class="row center">
-                    <h5 class="header col s12 light text-primary-color">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</h5>
+        <div class="section valign-wrapper">
+            <div class="container header-container">
+                <div class="center valign-wrapper">
+                    <div class="row">
+                        <h1 class="header text-primary-color col s12">Lorem Ipsum sit dollar.</h1>
+                        <br/>
+                        <h5 class="header col s12 light text-primary-color">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</h5>
+                    </div>
                 </div>
-                <br>
-                <br>
             </div>
         </div>
         <div class="parallax">
@@ -76,93 +59,188 @@
         </div>
     </div>
     <!--End Hero Image Section-->
-    <!--Begin Services Section-->
-    <div class="container">
-        <div class="section">
-            <!--Icons-->
-            <div class="row">
-                <div class="col s12 m4">
-                    <div class="icon-block">
-                        <h1 class="center secondary-text-color">
-                            <i class="material-icons">flash_on</i>
-                        </h1>
-                        <h5 class="center">Lorem Ipsum</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-                            ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-                        </p>
+    <!--Begin Advantages Section-->
+    <div class="advantages-section">
+        <div class="container">
+            <div class="section">
+                <div class="row">
+                    <div class="col s12 text-primary-color">
+                        <h4 class="header center">LORM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT</h4>
                     </div>
                 </div>
+                <!--Icons-->
+                <div class="row">
+                    <div class="col s12 m4 text-primary-color">
+                        <div class="icon-block">
+                            <h1 class="center ">
+                                <i class="material-icons">flash_on</i>
+                            </h1>
+                            <h5 class="center">Lorem Ipsum</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                voluptate velit
+                            </p>
+                        </div>
+                    </div>
 
-                <div class="col s12 m4">
-                    <div class="icon-block">
-                        <h1 class="center secondary-text-color">
-                            <i class="material-icons">group</i>
-                        </h1>
-                        <h5 class="center">Lorem Ipsum</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-                            ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-                        </p>
+                    <div class="col s12 m4 text-primary-color">
+                        <div class="icon-block">
+                            <h1 class="center ">
+                                <i class="material-icons">group</i>
+                            </h1>
+                            <h5 class="center">Lorem Ipsum</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                voluptate velit
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <div class="col s12 m4">
-                    <div class="icon-block">
-                        <h1 class="center secondary-text-color">
-                            <i class="material-icons">settings</i>
-                        </h1>
-                        <h5 class="center">Lorem Ipsum</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-                            ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit</p>
+                    <div class="col s12 m4 text-primary-color">
+                        <div class="icon-block">
+                            <h1 class="center ">
+                                <i class="material-icons">settings</i>
+                            </h1>
+                            <h5 class="center">Lorem Ipsum</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                                voluptate velit</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!--End Services Section-->
+    <!--End Advantages Section-->
+    <!--Testimonials Section-->
+    <div class="testimonial-section text-primary-color">
+        <div class="container">
+            <div class="section no-pad-bot">
+                <div class="row">
+                    <h2 class="header center">Testimonials</h2>
+                </div>
+                <div class="row">
+                    <div class="valign-wrapper">
+                        <div class="col s12 m4">
+                            <div class="testimonial">
+                                <p>
+                                    <i class="material-icons ">format_quote</i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                                    dolor in reprehenderit in voluptate velit
+                                    <i class="material-icons ">format_quote</i>
+                                </p>
+                                <p>
+                                    <i class="material-icons ">minimize</i>
+                                    <b>Client 1</b>
+                                </p>
+                            </div>
+                        </div>
 
-    <!--Second Heroes Section-->
-    <div class="parallax-container valign-wrapper">
-        <div class="section no-pad-bot">
-            <div class="container">
+                        <div class="col s12 m4">
+                            <div class="testimonial">
+                                <p>
+                                    <i class="material-icons ">format_quote</i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                                    dolor in reprehenderit in voluptate velit
+                                    <i class="material-icons ">format_quote</i>
+                                </p>
+                                <p>
+                                    <i class="material-icons ">minimize</i>
+                                    <b>Client 2</b>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col s12 m4">
+                            <div class="testimonial">
+                                <p>
+                                    <i class="material-icons ">format_quote</i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                                    dolor in reprehenderit in voluptate velit
+                                    <i class="material-icons ">format_quote</i>
+                                </p>
+                                <p>
+                                    <i class="material-icons ">minimize</i>
+                                    <b>Client 3</b>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="services-section text-primary-color">
+        <div class="container">
+            <div class="section no-pad-bot">
+                <div class="row">
+                    <h2 class="header center">Services</h2>
+                </div>
+                <div class="row">
+                    <div class="col s12 m6 service-wrapper">
+                        <div class="service service-1">
+                            <div class="container">
+                                <h5 class="center">TIER 1</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 service-wrapper">
+                        <div class="service service-2">
+                            <div class="container">
+                                <h5 class="center">TIER 2</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12 m6 service-wrapper">
+                        <div class="service service-3">
+                            <div class="container">
+                                <h5 class="center">TIER 3</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 service-wrapper">
+                        <div class="service service-4">
+                            <div class="container">
+                                <h5 class="center">TIER 4</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
+                            </div>
+                        </div>
+                    </div>
+                    <br/>
+                    <br/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="index-banner" class="parallax-container footer-banner">
+        <div class="section">
+            <div class="container header-container">
                 <div class="row center">
-                    <h5 class="header col s12 light primary-text-color">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                        dolore magna aliqua.</h5>
+                    <h2 class="header col s12">Want to work with me?</h2>
+                </div>
+                <br/>
+                <br/>
+                <div class="row center">
+                    <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light orange">Contact Me</a>
                 </div>
             </div>
         </div>
         <div class="parallax">
-            <img src="HeroImage2.jpg" alt="Unsplashed background img 2">
-        </div>
-    </div>
-
-    <!--Testimonials Section-->
-    <div class="container">
-        <div class="section no-pad-bot">
-            <div class="row">
-                <h2 class="header center">Testemonials</h2>
-            </div>
-            <div class="row">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-                </p>
-            </div>
-
-            <div class="row">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-                </p>
-            </div>
-
-            <div class="row">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-                </p>
-            </div>
+            <img src="HeroImageSmall.jpg" alt="Unsplashed background img 1">
         </div>
     </div>
 </body>
