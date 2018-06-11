@@ -23,6 +23,11 @@
   margin-top: 200px;
 }
 
+.header {
+  font-family: "Open Sans", Helvetica, sans-serif;
+  font-weight: 600;
+}
+
 .parallax-container {
     min-height: 700px;
     line-height: 0;
@@ -112,4 +117,15 @@
   background-color: #45477E;
   margin:0;
   margin-bottom: 20px;
+}
+
+.carousel-section {
+  background-color: #2B343D;
+  color: #FFFFFF;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.carousel-section a{
+  color: #FFFFFF;
 }
